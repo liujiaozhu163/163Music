@@ -13,6 +13,10 @@ axios.defaults.baseURL = "http://localhost:3000"; //  设置axios默认请求数
 Vue.prototype.$http = axios; // 将 axios 设置成 vue的一个属性
 Vue.config.productionTip = false
 
+
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.css'
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
